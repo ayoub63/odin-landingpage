@@ -6,12 +6,12 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 1000px;
 }
 
 .upper {
     background-color: #1F2937;
-    height: 40vh;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -105,4 +105,27 @@ img {
     font-size: 18px;
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inspo {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.inspo .text {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    padding-right: 8px;
+    margin-bottom: 10px;
+}
+.inspo .author {
+    font-size: 26px;
+    font-family: light italic;
+    color: #1F2937;
+   
 }
