@@ -1,1 +1,1 @@
-# odin-landingpage
+This is a Personalized Landing Page created during the Odin roject with HTML and CSS.
