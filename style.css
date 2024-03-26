@@ -11,9 +11,11 @@ body {
 
 .upper {
     background-color: #1F2937;
+    height: 40vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-shrink: 0;
+   align-items: center;
+   justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -27,6 +29,7 @@ body {
 .top {
     color: #F9FAF8;
     font-size: 24px;
+    padding-left: 15px;
 }
 
 li {
@@ -39,27 +42,38 @@ ul {
     display: flex;
     list-style: none;
     gap: 15px;
+    padding-right: 15px;
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    
+    height: 250px;
+    width: 500px;
+    order: 3;
 }
 
 .big-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 40px;
 }
 
 .small-text {
     color: #E5E7EB;
     font-size:18px;
+    margin-top: 20px;
 }
 
 .upper-button {
-    padding: 8 15;
-    border-radius: 1px;
+    border: none;
+    color: white;
+    padding: 5px 26px;
+    border-radius: 5px;
     background-color: #3882F6;
+    margin-top: 20px;
+}
+
+.text-content {
+    text-align: left;
+    margin-right: 400px;
 }
